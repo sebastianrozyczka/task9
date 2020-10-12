@@ -4,11 +4,10 @@ public class CalculatorTest {
         Rectangle rectangle = new Rectangle(2, 3);
         Square square = new Square(2);
         Triangle triangle = new Triangle(1, 2, 3);
-        ShapeCalculator shapeCalculator = new ShapeCalculator();
 
-        System.out.println(shapeCalculator.circleArea(circle));
-        System.out.println(shapeCalculator.rectPerimeter(rectangle));
-        System.out.println(shapeCalculator.squareArea(square));
-        System.out.println(shapeCalculator.trianglePerimeter(triangle));
+        System.out.println(circle.calculateArea(circle));
+        System.out.println(rectangle.calculatePerimeter(rectangle));
+        System.out.println(square.calculateArea(square));
+        System.out.println(triangle.calculatePerimeter(triangle));
     }
 }
