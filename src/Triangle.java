@@ -21,7 +21,7 @@ public class Triangle {
         this.sideC = sideC;
     }
 
-    double calculatePerimeter(Triangle triangle){
+    double calculatePerimeter(){
         return sideA + sideB + sideC;
     }
 }

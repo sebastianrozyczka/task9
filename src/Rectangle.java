@@ -15,7 +15,7 @@ public class Rectangle {
         this.longerSide = longerSide;
     }
 
-    double calculatePerimeter(Rectangle rectangle){
+    double calculatePerimeter(){
         return longerSide*2 + shorterSide*2;
     }
 }

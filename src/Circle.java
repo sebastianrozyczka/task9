@@ -9,7 +9,7 @@ public class Circle {
         this.radius = radius;
     }
 
-    double calculateArea(Circle cirle){
+    double calculateArea(){
         return Math.PI * Math.pow(radius, 2);
     }
 }

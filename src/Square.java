@@ -9,7 +9,7 @@ public class Square {
         this.side = side;
     }
 
-    double calculateArea(Square square){
+    double calculateArea(){
         return Math.pow(side, 2);
     }
 }
